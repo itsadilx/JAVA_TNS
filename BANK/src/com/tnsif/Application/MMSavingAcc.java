@@ -19,4 +19,8 @@ public class MMSavingAcc extends SavingAcc
 		return "MMSavingAcc [getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
 				+ super.toString() + "]";
 	}
+
+	public static float getMinbal() {
+		return MINBAL;
+	}
 }
