@@ -1,6 +1,6 @@
 package com.tnsif.Framework;
 
-public abstract class CurrentAcc extends BankAcc
+public class CurrentAcc extends BankAcc
 {
 	  
    protected final float creaditLimit;
@@ -21,5 +21,7 @@ public String toString() {
 			+ ", toString()=" + super.toString() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + "]";
 }
 
-protected abstract String getAccNo();
+protected String getaccNo() {
+	return null;
+}
 }

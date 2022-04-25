@@ -1,9 +1,9 @@
 package com.tnsif.Framework;
 
-public abstract class SavingAcc extends BankAcc
+public class SavingAcc extends BankAcc
 {
    
-private boolean isSalary;
+protected boolean isSalary;
 
 public SavingAcc(int accNo, String accNm, float accBal, boolean isSalary) {
 	super(accNo, accNm, accBal);
@@ -12,7 +12,7 @@ public SavingAcc(int accNo, String accNm, float accBal, boolean isSalary) {
 
 
 
-   static final private float MINBAL=0;
+   static final public float MINBAL=0;
    public void withdraw (float accBal)
    {
 	   

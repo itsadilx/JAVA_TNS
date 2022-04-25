@@ -1,7 +1,7 @@
 package com.tnsif.Framework;
 
-public abstract class BankFactory
+public interface BankFactory
 {
-   public abstract SavingAcc getNewSavingAccount(int AccNo, String accNm, float accBal, boolean isSalaried);
-   public abstract CurrentAcc getNewCurrentAccount(int AccNo, String accNm, float accBal, float creaditLimit);
+   public abstract SavingAcc getNewSavingAccount(int accNo, String accNm, float accBal, boolean isSalaried);
+   public abstract CurrentAcc getNewCurrentAccount(int accNo, String accNm, float accBal, float creaditLimit);
 }

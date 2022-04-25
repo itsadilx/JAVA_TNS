@@ -1,6 +1,6 @@
 package com.tnsif.Framework;
 
-public abstract class BankAcc
+public class BankAcc
 {
    protected int accNo;
    protected  String accNm;
@@ -8,7 +8,25 @@ public abstract class BankAcc
 
 	
 
-   public BankAcc(int accNo, String accNm, float accBal) {
+   public int getAccNo() {
+	return accNo;
+}
+public void setAccNo(int accNo) {
+	this.accNo = accNo;
+}
+public String getAccNm() {
+	return accNm;
+}
+public void setAccNm(String accNm) {
+	this.accNm = accNm;
+}
+public float getAccBal() {
+	return accBal;
+}
+public void setAccBal(float accBal) {
+	this.accBal = accBal;
+}
+public BankAcc(int accNo, String accNm, float accBal) {
 	super();
 	this.accNo= accNo;
 	this.accNm = accNm;

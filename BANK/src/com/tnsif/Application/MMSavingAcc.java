@@ -11,7 +11,7 @@ public class MMSavingAcc extends SavingAcc
     static final private float MINBAL=0;
    public void withdraw (float accBal) 
     {
-    	
+	System.out.println("Saving Acc" +accBal); 
     }
 
 	@Override
@@ -22,5 +22,25 @@ public class MMSavingAcc extends SavingAcc
 
 	public static float getMinbal() {
 		return MINBAL;
+	}
+	
+	public void getaccBal() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void isSalary() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void getaccNo() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void getaccNm() {
+		// TODO Auto-generated method stub
+		
 	}
 }

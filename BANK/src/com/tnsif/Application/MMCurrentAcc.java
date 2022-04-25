@@ -4,14 +4,14 @@ import com.tnsif.Framework.CurrentAcc;
 
 public class MMCurrentAcc extends CurrentAcc
 {
-    public MMCurrentAcc(int accNo, String accNm, float accBal) {
+    public MMCurrentAcc(int accNo, String accNm, float accBal, float creaditLimit) {
 		super(accNo, accNm, accBal, accBal);
 		
 	}
 
 	public void withdraw(float accBal)
     {
-    	
+		 System.out.println("Current Acc "+ accBal); 
     }
 
 	@Override
@@ -21,9 +21,30 @@ public class MMCurrentAcc extends CurrentAcc
 				+ hashCode() + "]";
 	}
 
-	@Override
-	protected String getAccNo() {
+
+	public String getaccNo() {
+		return accNm;
 		// TODO Auto-generated method stub
-		return null;
+		
+	}
+
+	public void getaccNm() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void getaccBal() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void creaditLimit(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void creaditLimit() {
+		// TODO Auto-generated method stub
+		
 	}
 }
