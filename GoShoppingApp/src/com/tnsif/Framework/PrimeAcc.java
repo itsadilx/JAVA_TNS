@@ -1,9 +1,9 @@
 package com.tnsif.Framework;
 
-public abstract class PrimeAcc extends ShopAcc
+public class PrimeAcc extends ShopAcc
 {
    
-   private boolean isPrime;
+   protected boolean isPrime;
    
    public PrimeAcc(int accNo, String accNm, float charges, boolean isPrime) {
 	super(accNo, accNm, charges);

@@ -1,6 +1,6 @@
 package com.tnsif.Framework;
 
-public abstract class NormalAcc extends ShopAcc
+public class NormalAcc extends ShopAcc
 {
 
 protected final float deliveryCharges;
@@ -11,7 +11,7 @@ protected final float deliveryCharges;
 	this.deliveryCharges = deliveryCharges;
 }
 
-  public void bookProduct(float charges)
+public void bookProduct(float charges)
   {
 	  
   }

@@ -1,8 +1,9 @@
 package com.tnsif.Framework;
 
-public abstract class ShopFactory 
+public interface ShopFactory 
 {
-     public abstract PrimeAcc getNewPrimeAccount(int AccNo, String accNm, float charges, boolean isPrime);
-    public  abstract NormalAcc getNewNormalAccount(int AccNo, String accNm, float charges, boolean deliveryCharges);
-     
+     public abstract PrimeAcc getNewPrimeAccount(int AccNo, String accNm, float charges, float isPrime); 
+	
+     public abstract  NormalAcc getNewNormalAccount(int AccNo, String accNm, float charges, float deliveryCharges);
+  
 }

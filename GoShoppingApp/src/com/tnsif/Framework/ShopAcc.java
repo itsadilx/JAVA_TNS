@@ -1,13 +1,37 @@
 package com.tnsif.Framework;
 
-public abstract class ShopAcc 
+public class ShopAcc 
 {
- protected int accNo;
+  protected int accNo;
   protected String accNm;
   protected float charges;
 
 
-   public ShopAcc(int accNo, String accNm, float charges) {
+   public int getAccNo() {
+	return accNo;
+}
+
+public void setAccNo(int accNo) {
+	this.accNo = accNo;
+}
+
+public String getAccNm() {
+	return accNm;
+}
+
+public void setAccNm(String accNm) {
+	this.accNm = accNm;
+}
+
+public float getCharges() {
+	return charges;
+}
+
+public void setCharges(float charges) {
+	this.charges = charges;
+}
+
+public ShopAcc(int accNo, String accNm, float charges) {
 	super();
 	this.accNo = accNo;
 	this.accNm = accNm;
