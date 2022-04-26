@@ -6,7 +6,6 @@ import com.tnsif.Framework.SavingAcc;
 
 public class MMBankFactory implements BankFactory
 {	
-
 	public SavingAcc getNewSavingAccount(int AccNo, String accNm, float accBal, boolean isSalaried)
 	    {
 	    	MMSavingAcc mmsaving=new MMSavingAcc(AccNo, accNm, accBal, isSalaried);
@@ -22,4 +21,3 @@ public class MMBankFactory implements BankFactory
 		   
 	   }
 }
-
