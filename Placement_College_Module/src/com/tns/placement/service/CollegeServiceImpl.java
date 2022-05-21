@@ -57,6 +57,27 @@ public class CollegeServiceImpl implements ICollegeService
 		dao.beginTransaction();
 		dao.schedulePlacement(Placement placement);
 		dao.commitTransaction();*/
+
+
+
+	@Override
+	public College searchCollege(int id) {
+		// TODO Auto-generated method stub
+		return null;
 	}
+
+
+
+	@Override
+	public College searchCollegeById(int i) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+
+	
+	}
+	
 
 

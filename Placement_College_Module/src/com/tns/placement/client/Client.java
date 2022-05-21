@@ -18,12 +18,31 @@ public class Client {
 				
 				//Create Operation 
 				
-				college.setId(101);
+				/*college.setId(101);
 				college.setCollegeAdmin("Yogesh");
 				college.setCollegename("BAMU");
 				college.setLocation("Aurangabad");
 				
 				service.addCollege(college);
+				
+				//Update opration
+				/*college = service.searchCollege(101);
+				college.setCollegename("Azad");
+				service.updateCollege(college);
+				System.out.println("Update is Successful");*/
+				
+				//Search opration
+				/*
+				college.setCollegename("BAMU");
+				service.searchCollege(101);
+				System.out.println("Search is Successful");*/
+				
+				//Delete opration
+			
+				college.setCollegename("BAMU");
+				service.deleteCollege(101);
+				System.out.println("Delete is Successful");
+				
 
 	}
 
