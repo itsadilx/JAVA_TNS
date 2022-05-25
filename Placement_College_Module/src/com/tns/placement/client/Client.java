@@ -18,7 +18,7 @@ public class Client {
 				
 				//Create Operation 
 				
-				/*college.setId(101);
+				college.setId(101);
 				college.setCollegeAdmin("Yogesh");
 				college.setCollegename("BAMU");
 				college.setLocation("Aurangabad");
@@ -39,9 +39,9 @@ public class Client {
 				
 				//Delete opration
 			
-				college.setCollegename("BAMU");
-				service.deleteCollege(101);
-				System.out.println("Delete is Successful");
+//				college.setCollegename("BAMU");
+//				service.deleteCollege(101);
+//				System.out.println("Delete is Successful");
 				
 
 	}
